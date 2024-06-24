@@ -1,0 +1,854 @@
+{
+    "projects": [
+        {
+            "name": "The Gender gap in the 21st Century",
+            "date": "2024-05-01",
+            "class": "Capstone",
+            "year": "Senior Year",
+            "skills/tools": ["Design Research Frameworks", "InDesign", "Procreate", "PremierPro", "p5.js", "Canva"],
+            "category": "Strategic Design",
+            "attributes": ["Design Research", "Strategic Design", "Creative Code"],
+            "subtitle": "Tackling the gender gap in tech through the lense of computer science education in hopes of expanding young girls' field of opportunities and ultimately driving the necessary change in tech.",
+            "cover_image": "cover.jpg",
+            "project_link": "https://www.parsonsbba.com/sp24-studentprojects-1/computers%2B%2B",
+            "web_content": [
+                {
+                    "block_title": "Computers++",
+                    "images": ["1.jpg"],
+                    "paragraph": "Computers++ is a social media campaign that highlights the achievements of female computer scientists through short videos. With enthusiastic participation from women in the field eager for recognition and a change in workplace dynamics, this campaign spotlights their inspiring projects and positions them as role models. By showcasing these endeavors, I aimed to change how thousands of high school girls perceive computer science. The initiative encourages them to explore the field and the many opportunities available through schools, after-school clubs, organizations, and government programs."
+                },
+                {
+                    "block_title": "Challenge",
+                    "images": ["2.png"],
+                    "paragraph": "The Gender Gap in Tech through the 21st century delves into the intricate landscape of computer science education, aiming to devise an innovative strategy capable of effecting the necessary change that current initiatives have thus far failed to achieve. Given the entrenched role of stereotypes in erecting barriers to entry into the field over many years, the primary objective is to dismantle these stigmas and societal misconceptions surrounding computer science, while highlighting its expansive creativity and versatility. To accomplish this, Computers++ serves as a social media campaign platform, designed to bridge the gap between the breadth of opportunities within the field and the participation of female students."
+                },
+                {
+                    "block_title": "Enrollment",
+                    "images": ["3.png", "4.png"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Research ",
+                    "images": ["5.jpg"],
+                    "paragraph": "My research began by familiarizing myself with the background of computer science, and getting a clearer view of the current state of the problem. Even in an age of technology, where every industry relies on computer science in one way or another, the number of computer science degrees conferred to women in the US is still only [20%]. That is almost half of what it was in the 1980's. And though there are so many initiatives, government organizations, private organizations, funding and much more, being thrown at the problem. Clearly, It is not reaching the indented audience. Though there are many underlying factors that have contributed to this like curriculums; both computer scientists and educators of the subject agree that the number one cause for this are those ever-present stigmas and stereotypes that surround computer science. Moreover though, it is contributing to a gap that continues to grow in research and development in areas that rely on the contribution from computer scientists. Because of the lack of female representation, they are not pushing for development in these areas of research such as: artificial intelligence, healthcare, and so much more"
+                },
+                {
+                    "block_title": "Define",
+                    "images": ["6.heic"],
+                    "paragraph": "Through interviews with teachers, after school program leaders, students, and so much more; I derived 3 key insights: increase participation overall in Computer Science, foster Engagement, and eliminate stereotypes around computer science, gender and success.These led me to my specified research question on which to base my concept: How might we approach CS education in a more creative way, that increases participation, fosters engagement, and forgoes stereotypes and societal stigmas surrounding computer science and success?"
+                },
+                {
+                    "block_title": "Areas of Opportunity",
+                    "images": ["7.png", "8.png"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Ideate",
+                    "images": ["9.pdf"],
+                    "paragraph": "The ideation process began by creating several workshops in which I derived useful contributions from students and stakeholders on how to begin to approach this topic. However, in knowing just how many organizations and initiatives have been attempting to tackle this issue by creating community and organizations, I was in search of a different solution. It was through one of those particular workshops that someone suggested: 'It seems like we just need to change those stereotypes through a campaign in order to start to create that change'. Essentially changing the way we view computer science as a society to eliminate those barriers."
+                },
+                {
+                    "block_title": "Frameworks",
+                    "images": ["10.jpg", "11.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Prototype",
+                    "images": ["13.png", "14.png"],
+                    "paragraph": "Within the span of a 4 week testing period, there were three main things that needed to be tested: Channel: How to best reach the desired market?, Narrative: What is the narrative that we are telling the students that will convince them to try computer science?, and Format/business Model: How will this campaign evolve? with this in mind, I created 4 weeks worth of content of iterations to measure response."
+                },
+                {
+                    "block_title": "User Testing",
+                    "images": ["15.PNG"],
+                    "paragraph": "Within the first week, and just a $10 dollar investment, the platform reached 3.5k views and a 75% Click through rate. However, it is crucial to keep working and explore how to take the analytics to build the next iterations. During a conversation I had with Rich Silverstein, CEO of Goodby & Silverstein, he relayed the importance of 3 things in advertising to tell a story that is captivating: Personal, Network: Not only one person but as many as possible (perspectives), and Story arc: having something negative in search for a resolution."
+                },
+                {
+                    "block_title": "User testing results",
+                    "images": ["16.jpg", "17.jpg", "18.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Ready for Implementation",
+                    "images": ["19.pdf"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Project images, branding, mockups",
+                    "images": ["20.jpg", "21.jpg", "22.jpg", "23.png", "24.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Video",
+                    "images": ["video.mp4"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Interactive Travel Journal",
+            "date": "2024-02-01",
+            "class": "Communication Design Studio: Javascript",
+            "year": "Senior Year",
+            "skills/tools": ["JavaScript", "Procreate", "jQuery", "Illustrator", "HTML", "CSS", "Figma"],
+            "category": "Design Technology",
+            "attributes": ["JavaScript", "Creative code", "Web", "Interactive"],
+            "subtitle": "Discover the world in two tones: Click, hover, explore!",
+            "cover_image": "cover.png",
+            "project_link": "https://anabombin.github.io/Changing-States/",
+            "web_content": [
+                {
+                    "block_title": "Objective",
+                    "images": [],
+                    "paragraph": "My main goal with this project was to create an interactive platform that could visually showcase my collection of digital postcards from years of travel. I wanted to turn this assortment of memories into an engaging experience where users could virtually follow my journey by exploring different destinations on a world map. By delving into interactive web design, I aimed to transform static images into a dynamic narrative, offering both myself and users a captivating way to reminisce about past adventures."
+                },
+                {
+                    "block_title": "Research/Insights",
+                    "images": [],
+                    "paragraph": "I spent time researching various interactive web design techniques, data visualization methods, and user experience principles to inform the development of the project. I explored existing travel websites, interactive maps, and data visualization projects to gather insights into effective design patterns and functionalities. Additionally, I studied user behavior on similar platforms to refine the project's concept and ensure a user-friendly browsing experience."
+                },
+                {
+                    "block_title": "Outcome",
+                    "images": [],
+                    "paragraph": "The outcome of the project exceeded my initial expectations, delivering a visually engaging platform that seamlessly combined visual storytelling with interactive elements. Through the dynamic world map interface, users could navigate through different destinations, immersing themselves in my travel experiences with each hover and click. The project not only served as a stunning showcase for my digital postcard collection but also fostered a sense of connection and exploration, allowing users to virtually join me on my adventures around the globe."
+                },
+                {
+                    "block_title": "Initial Wireframes",
+                    "iframe": "https://www.figma.com/proto/vL8yejOhgRx2tUgF8b6fJZ/Wireframe-Changing-States?kind=proto&node-id=1-2&page-id=0%3A1&scaling=contain&starting-point-node-id=1%3A2&t=aYtkCsIlBq4ZF56H-1&type=design",
+                    "images": [],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Final Site",
+                    "images": ["video.mov"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "The Gender Gap in Tech through Data",
+            "date": "2023-12-01",
+            "class": "Code Toolkit: Python",
+            "year": "Senior Year",
+            "skills/tools": ["Python", "Processing"],
+            "category": "Design Technology",
+            "attributes": ["Python", "Creative Code", "Interactive", "Data Viz"],
+            "subtitle": "Revealing the reality of the gender gap in tech education using visually stunning data sets to inspire change and challenge misconceptions about creativity in coding",
+            "cover_image": "cover.png",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Data",
+                    "images": [],
+                    "paragraph": "NYC Department of Education."
+                },
+                {
+                    "block_title": "Objective",
+                    "images": [],
+                    "paragraph": "Whilst carrying out research for my thesis project about the gender gap in tech, I've collected large sets of shocking data revealing just how prominent the gender gap is across the US during high school level. Though it was very revealing for my project, I was not able to showcase it. My hope with this project is that if a greater audience is aware and able to interact with these visualizations, they too will want to help create a difference."
+                },
+                {
+                    "block_title": "Research/Insights",
+                    "images": [],
+                    "paragraph": "Most of this data demonstrates just how little impact initiatives are having on getting more students, particularly females, to join computer science classrooms to diversify the student population and hopefully change the field for the better. Even in an era where kids are growing up surrounded by technology, there is still very little interest in discovering how the world of tech that surrounds us works."
+                },
+                {
+                    "block_title": "Outcome",
+                    "images": [],
+                    "paragraph": "Greatly inspired by the 'Dear Data' postcards by Stefanie Posavec and Giorgia Lupi, my intention was to create visually interesting and creative data visualizations, that not only captivate the audience but create a sense of intrigue. Additionally, there is a huge misconception about the aspect of creativity through code, which I hope to somewhat demystify through my work. The irony behind this project is even further highlighted by the fact that it is a creative coding project, that is simple, and executed by a female coder."
+                },
+                {
+                    "block_title": "Data Postcards",
+                    "images": ["data-1.gif", "data-2.gif", "data-3.gif", "data-4.gif"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Autobiographical Game",
+            "date": "2023-11-01",
+            "class": "Critical Computation",
+            "year": "Senior Year",
+            "skills/tools": ["p5.js", "Procreate", "Photoshop"],
+            "category": "Design Technology",
+            "attributes": ["Creative Code", "Interactive"],
+            "subtitle": "Indy-style game about the familiar childhood rhythm of shuttling between divorced parents’ homes where every few days becomes a bitter routine of memories and essentials",
+            "cover_image": "cover.jpg",
+            "project_link": "https://anabombin.github.io/PackYourLife/",
+            "web_content": [
+                {
+                    "block_title": "Objective",
+                    "images": [],
+                    "paragraph": "This autobiographical game attempts to recreate the same feeling I felt since the age of 10, when every couple of days, I would have to pack a suitcase to bring from one of my parents' houses to the other. It is an experience that most children of divorced parents share when on top of all of their regular routines, you have to pack up all your belongings that you will need for the next week into a suitcase, hoping that you don't forget anything."
+                },
+                {
+                    "block_title": "Research/Insights",
+                    "images": [],
+                    "paragraph": "The idea that the user could win the game by placing all items in the suitcase defeated the purpose of showcasing the struggle of trying to remember to pack everything one may need. I don't think that there was a single time that I didn't forget at least one item. Coupled with the odd-shaped clothing that would be quite complex to make collisions, the objective changed to making the player try to put as many items in the suitcase under time constraints in no specific order. By making the time constraint be too difficult to ever successfully complete the game or the scene, I am attempting to recreate the frustration experienced when you know that no matter how much you plan in advance, you will always forget to pack something"
+                },
+                {
+                    "block_title": "Outcome",
+                    "images": [],
+                    "paragraph": "Though the final gameplay shifted quite a bit from its original design, the feeling of frustration is achieved and the message is also conveyed. Pack your life, with a child-like aesthetic and chaotic scene and asset design, successfully takes players on a journey to discover the bitter memories and feelings experienced by children of divorce. Though the payer is free to discover each step of the game as they please, after several unsuccessful attempts at either game will undoubtedly generate that familiar feeling of frustration. Hence, the addition of a 'zone-out' scene in which players can release those pent-up emotions and give the games another try."
+                },
+                {
+                    "block_title": "Video",
+                    "images": ["video.mov"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Game Flow & Asset Design",
+                    "images": ["1.jpg", "2.jpg"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "NYC Safe Transit",
+            "date": "2023-05-01",
+            "class": "Innovation",
+            "year": "Junior Year",
+            "skills/tools": ["Figma", "Canva"],
+            "category": "Strategic Design",
+            "attributes": ["UX/UI", "Design Research", "Business"],
+            "subtitle": "An innovative app that attempts to solve the current issue of safety and reliability with mass transit in NYC",
+            "cover_image": "cover.png",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Objective",
+                    "images": [],
+                    "paragraph": "It all started by listening to friends and those around me. Every day, there are approximately 2.4 million users in the NYC subway. But also more than 600 thousand Uber or cab users every day. The New York City mass transit system is ideal for moving around such a busy city. Making transportation affordable and quick. However, many users choose to use other modes of transport every day because of their lack of safety, reliability, and ease of use. "
+                },
+                {
+                    "block_title": "Research/Insights",
+                    "images": [],
+                    "paragraph": "In the evolving landscape of Transportation Communication, recent innovations like City Mapper and Waze have revolutionized how we navigate transportation. Looking ahead, the focus is on efficiency, sustainability, and speed. The ideal solution should encourage more people to embrace public transit, prioritizing safety and connectivity. By enhancing safety measures, the use of mass transit in NYC can soar, reducing personal vehicle reliance and pollution. Our research underscores the key areas of concern: the safety and reliability of subway and bus systems, particularly for young adults using them at night."
+                },
+                {
+                    "block_title": "Outcome",
+                    "images": [],
+                    "paragraph": "NYC Safe Transit App is a comprehensive app that provides real-time, visual information on the location of trains and buses, similar to a GPS App. In the meantime, it will also keep track of every user’s location to ensure their safety at all times, even without cell phone service in underground cars. Ideally, the solution would help more users adopt the transit system and increase its use, making it the primary mode of transportation, whilst keeping"
+                },
+                {
+                    "block_title": "User Research",
+                    "images": ["1.png", "2.png"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "User Journey Map",
+                    "images": ["3.png"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Flow Chart",
+                    "images": ["4.png"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Marketing",
+                    "images": ["cover.png"],
+                    "paragraph": "It seems most suitable that to reach as many people as possible, you try and approach them through a platform that has the highest number of daily users and try to capture their attention in just a couple of seconds with a simple visual and caption that tells them everything they need to know. Here is an example of an Instagram story ad with a simple caption and visual intended to grab the user’s attention. In just a few words, the caption “say caption”, tells the user all they need to know about the app."
+                }
+            ]
+        },
+        {
+            "name": "Collection",
+            "date": "2023-01-01",
+            "class": "Personal Project",
+            "year": "Junior Year",
+            "skills/tools": ["Figma", "Photoshop"],
+            "category": "Design Technology",
+            "attributes": ["UX/UI", "Design Research", "Graphic Design"],
+            "subtitle": "re-imagining the way we create and share memories",
+            "cover_image": "cover.png",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Objective",
+                    "images": [],
+                    "paragraph": "Inspired by the experiences we live and never want to forget. It is a social media app that encourages you to share all of those photos and videos from every occasion without ever having to worry about your storage space, all the while, making it much easier to organize. Furthermore, it explores the idea of posting images together with your friends as soon as you have them, rather than waiting to edit and curate every photo meticulously before showing it off to your followers."
+                },
+                {
+                    "block_title": "Research/Insights",
+                    "images": [],
+                    "paragraph": "Taking inspiration from the apps we love and use on a daily basis like What's App, Instagram, Pinterest, and more, I crafted a list of items that the Collection app had to have as well as opportunities where other apps were lacking in their features. While on What's App, users are able to create groups and share images very easily, these lose quality and often take up large amounts of space from one's device. Instagram and Pinterest give users the ability to share their images beyond a specific group but with less focus on organization. Some of the necessary features determined from my research included: an easy organization system, a section to discover new experiences, the ability to download images with good quality, and finally only sharing experiences or images as part of a group, to emphasize the app's focus on creating memories with others."
+                },
+                {
+                    "block_title": "Outcome",
+                    "images": [],
+                    "paragraph": "That is where Collection comes in! Inspired by the experiences we live and never want to forget. It is a social media app that encourages you to share all of those photos and videos from every occasion without ever having to worry about your storage space, all the while, making it much easier to organize. Furthermore, it explores the idea of posting images together with your friends as soon as you have them, rather than waiting to edit and curate every photo meticulously before showing it off to your followers."
+                },
+                {
+                    "block_title": "Wireframes",
+                    "iframe": "https://www.figma.com/design/hR7u7nrf5jLcu94MpIkiRS/Collections?node-id=0-1&t=Tof41UWVQQoWxl0X-0",
+                    "images": [],
+                    "paragraph": "The Wireframes above take a look at the pages of the app, the architecture, and their relation to one another."
+                },
+                {
+                    "block_title": "Prototype",
+                    "iframe": "https://www.figma.com/proto/hR7u7nrf5jLcu94MpIkiRS/Collections?kind=proto&node-id=81-862&page-id=81%3A12&scaling=scale-down&starting-point-node-id=81%3A873&viewport=979%2C490%2C0.29",
+                    "images": [],
+                    "paragraph": "Feel free to navigate through this initial prototype!"
+                }
+            ]
+        },
+        {
+            "name": "NYCItyCampus.com",
+            "date": "2022-05-01",
+            "class": "Communication Design Studio: Interaction",
+            "year": "Sophomore Year",
+            "skills/tools": ["HTML", "Photoshop", "CSS"],
+            "category": "Design Technology",
+            "attributes": ["UX/UI", "Web", "Creative code", "Graphic Design"],
+            "subtitle": "Essential NYC guide for students, unlocking the best of the city with tips, discounts, and local secrets.",
+            "cover_image": "cover.jpg",
+            "project_link": "http://b.parsons.edu/~bomba227/parsons/final/home-wireframe.html",
+            "web_content": [
+                {
+                    "block_title": "Objective",
+                    "images": [],
+                    "paragraph": "Embarking on your journey as a newcomer in New York City can feel like stepping into an endless sea of possibilities – a multitude of places to explore, activities to dive into, sights to behold, and flavors to savor. However, there's a steep entry barrier when it comes to acquiring those local insights and establishing your foothold in this overwhelmingly vibrant city. This project's mission is to seamlessly combine these invaluable insider tips, crafting an easily navigable website that becomes your trusted companion on your way to becoming a New York City local."
+                },
+                {
+                    "block_title": "Research/Insights",
+                    "images": [],
+                    "paragraph": "While there's no shortage of one-page articles and YouTube videos dishing out tips for students navigating NYC, the ultimate insider secret lies in living and breathing this dynamic city. It's here where you unlock the true gems, connect with the right people, and master the city's intricate tapestry. Many platforms offer a blog-style approach, dissecting nightlife, apartment hunting, and dining. My vision, however, is to create an interactive map, a visual compass to help you explore NYC in relation to your campus or location."
+                },
+                {
+                    "block_title": "Outcome",
+                    "images": [],
+                    "paragraph": "My ultimate design theme takes a page from the iconic NYC subway aesthetics: a sleek black backdrop with colorful accents and clean, white Helvetica font. Offering user-friendly navigation and optimal functionality for all site content. This website is carefully crafted for college students immersed in the heartbeat of NYC and adventurous weekend explorers alike. For young adults venturing into the city, it serves as your trusty compass, connecting you with kindred spirits, enabling shared experiences, and unveiling the very best of the Big Apple, no matter your budget constraints. "
+                },
+                {
+                    "block_title": "Wireframes",
+                    "images": ["3.jpg", "2.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Video",
+                    "images": ["video.mov"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Chiquilin Brand Publication",
+            "date": "2023-05-01",
+            "class": "Communication Design Studio: Systems for Brands",
+            "year": "Junior Year",
+            "skills/tools": ["Photoshop", "RISO Print", "InDesign"],
+            "category": "Graphic Design",
+            "attributes": ["Branding", "Graphic Design"],
+            "subtitle": "",
+            "cover_image": "Branding, Graphic Design",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Objective",
+                    "images": ["Poster.jpg"],
+                    "paragraph": "As part of my systems for brands class, we were asked to create a publication that explores notions of the brand through investigative cropping. The publication's compositional crops were then used to create a poster as seen on the left. The composition is based on a Spanish cookie brand (Chiquilin) and its parent company (Artiach). Below is a scan of the original box where all the images were pulled, alongside the publication."
+                },
+                {
+                    "block_title": "Publication",
+                    "images": ["1.jpg", "2.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Video",
+                    "images": ["video.mov"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "COCOtering Rebrand",
+            "date": "2023-01-01",
+            "class": "Personal Project",
+            "year": "Junior Year",
+            "skills/tools": ["Photoshop", "InDesign"],
+            "category": "Graphic Design",
+            "attributes": ["Branding", "Graphic Design"],
+            "subtitle": "",
+            "cover_image": "cover.png",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Rebrand",
+                    "images": ["1.png"],
+                    "paragraph": "Aside from the official logo seen at the top, the company needed a more simplified version of the logo where the name was still identifiable, but simple enough to put on napkins, etc."
+                }
+            ]
+        },
+        {
+            "name": "Hitchcock Posters",
+            "date": "2022-12-01",
+            "class": "Communication Design Studio: Typography",
+            "year": "Junior Year",
+            "skills/tools": ["Photoshop", "InDesign", "Illustrator", "Procreate"],
+            "category": "Graphic Design",
+            "attributes": ["Branding", "Graphic Design"],
+            "subtitle": "",
+            "cover_image": "cover.png",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Prompt",
+                    "images": [],
+                    "paragraph": "The posters for Hitchcock’s films are iconic—designed by the world’s most famous and talented graphic designers. We had to design a series of two posters announcing this event—which commemorates the posters designed for Hitchcock’s films. Our posters could highlight any or all of his films."
+                },
+                {
+                    "block_title": "Research",
+                    "images": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "7.jpeg", "8.jpeg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Iterations",
+                    "images": ["9.png", "10.jpg", "11.jpg"],
+                    "paragraph": "Below are the first four iterations of the posters. Each took different elements from the movies and posters."
+                },
+                {
+                    "block_title": "Final Posters",
+                    "images": ["12.png", "13.png"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Pixel Offset Algorithm",
+            "date": "2024-04-01",
+            "class": "Communication Design Studio: Javascript",
+            "year": "Senior Year",
+            "skills/tools": ["p5.js", "JavaScript", "Photoshop", "HTML", "CSS"],
+            "category": "Design Technology",
+            "attributes": ["Creative Code", "Web", "Interactive"],
+            "subtitle": "",
+            "cover_image": "cover.png",
+            "project_link": "https://anabombin.github.io/JS-S24/project-2/index.html",
+            "web_content": [
+                {
+                    "block_title": "Prompt",
+                    "images": [],
+                    "paragraph": "One way to think about tools is through the lens of inputs and outputs. A tool is a mediator between human input and physical, visual, or conceptual output, and will have a significant impact on what type of output is created. A hammer for instance, takes human energy as input and amplifies force to achieve desired results. Hammers allow us to bang nails into walls."
+                },
+                {
+                    "block_title": "Objective",
+                    "images": [],
+                    "paragraph": "Through this tool I was hopping to challenge myself and explore a complex mathematical problem through an artistic lense. The tool uses p5.js library to imitate the offset algorithm by calculating distance from each pixel to an array of points."
+                },
+                {
+                    "block_title": "Outcome",
+                    "images": [],
+                    "paragraph": "Although not entirely complex, feel free to manipulate the pixels, colors and points on the screen by using the panel on the right. If you want to add more points, just click anywhere on the canvas. And don't forget to save your designs!"
+                },
+                {
+                    "block_title": "Final Posters",
+                    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Travel Posters",
+            "date": "Ongoing",
+            "class": "Personal Project",
+            "year": "Sophomore Year",
+            "skills/tools": ["Illustrator", "Procreate"],
+            "category": "Graphic Design",
+            "attributes": ["Digital Art", "Graphic Design"],
+            "subtitle": "",
+            "cover_image": "cover.jpg",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Posters",
+                    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Digital Patterns",
+            "date": "2022-05-01",
+            "class": "Personal Project",
+            "year": "Sophomore Year",
+            "skills/tools": ["Photoshop", "InDesign", "Illustrator", "Procreate"],
+            "category": "Graphic Design",
+            "attributes": ["Digital Art", "Graphic Design"],
+            "subtitle": "",
+            "cover_image": "cover.jpg",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Patterns",
+                    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg", "22.jpg", "23.jpg", "24.jpg"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Study Space Inspired by Verner Panton",
+            "date": "2021-12-01",
+            "class": "History of Design",
+            "year": "Sophomore Year",
+            "skills/tools": ["Photoshop", "Illustrator"],
+            "category": "Strategic Design",
+            "attributes": ["Product Design", "Graphic Design", "Canva"],
+            "subtitle": "",
+            "cover_image": "cover.jpg",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Panton",
+                    "images": [],
+                    "paragraph": "Verner Panton was and still is very well known for many of his designs, the Panton Chair, known to be the first chair made from molds and without any legs, just one piece. However, all his designs were just as groundbreaking, from single furniture pieces out of new materials, to whole spaces decorated entirely with colors and patterns. Panton, a Danish native, did not conform to Scandinavian traditional design made from wood, metal, and simplistic styles. He chose to make use of the new technologies av available to him like faster and simpler production systems while creating “simple, elegant and innovative” designs  (Engholm 2019)."
+                },
+                {
+                    "block_title": "The Pop Movement",
+                    "images": [],
+                    "paragraph": "The pop movement which took place in the 1960s to 1970s is much closer to his style: colorful, organic designs that adapt to body shape, inspired by freedom and the effects of hallucinatory drugs. When walking into one of Panton’s spaces, it is precisely that. Smooth, simple, organic shapes made from colorful and innovative materials – plastics, textiles, etc. – all put together in an excessive fashion that takes up whole spaces. A lot of the movement what based upon artists and designers experimenting with new possibilities and technologies (Divisare Journal 2016)"
+                },
+                {
+                    "block_title": "My Designs",
+                    "images": [],
+                    "paragraph": "My design takes direct inspiration from his modular furniture spaces from shapes that adapt to your body, to their versatility. All in all, creating environments that are inviting for students to want to come back to campus and reimagining study spaces. Not conforming to the traditional desk and chair, but instead taking the idea of comfort from home and bringing it to campus so that students feel more drawn to come back. Differing from his designs: for studying, one requires much more natural light and airflow which is why they are much more open. Also, as we have become more aware of sustainability issues; using current technologies, sustainable materials, and stretch fabric that adapts to your body, would be some of the changes geared towards today’s society."
+                },
+                {
+                    "block_title": "Presentation/Research",
+                    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Impossible Fashion Collection",
+            "date": "2021-05-01",
+            "class": "Time",
+            "year": "Freshman Year",
+            "skills/tools": ["Photoshop", "InDesign"],
+            "category": "Graphic Design",
+            "attributes": ["Data Visualization", "Graphic Design"],
+            "subtitle": "",
+            "cover_image": "cover.jpg",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Prompt",
+                    "images": [],
+                    "paragraph": "This project was a particular assignment to be completed in pairs. The idea was to create a digital photo book in which time was present in some way. The final product is a 'impossible fashion collection' comprised of four categories: dresses, necklaces, shoes and purses. The idea was to depict the evolution of the most prized and unique pieces of each category along with an explanation to its affect."
+                },
+                {
+                    "block_title": "Video",
+                    "images": ["video.mov"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Prototype",
+                    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Print Ad Series",
+            "date": "2021-05-01",
+            "class": "Drawing & Imaging",
+            "year": "Freshman Year",
+            "skills/tools": ["Collage", "Photoshop", "Illustrator", "Acrylic"],
+            "category": "Fine Art",
+            "attributes": ["Digital Art", "Graphic Design", "Fine Art"],
+            "subtitle": "",
+            "cover_image": "cover.jpg",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Prompt",
+                    "images": ["1.JPG", "2.jpg", "3.JPG", "4.jpg"],
+                    "paragraph": "I wanted to showcase several different techniques through my work; and that is where I came up with the idea of having the media reflect the brand that it was advertising."
+                }
+            ]
+        },
+        {
+            "name": "Making 'The Head(s)'",
+            "date": "2021-05-01",
+            "class": "Integrative Studio 2",
+            "year": "Freshman Year",
+            "skills/tools": ["Sculpting", "Photoshop", "InDesign", "PremierPro"],
+            "category": "Fine Art",
+            "attributes": ["Digital Art", "Graphic Design", "Fine Art"],
+            "subtitle": "",
+            "cover_image": "cover.JPG",
+            "project_link": "https://drive.google.com/drive/u/1/folders/1MSyN338tqAe0ASlaLqUtDG0WL8sYBz68",
+            "web_content": [
+                {
+                    "block_title": "Prompt",
+                    "images": [],
+                    "paragraph": "This is my end of year piece in which I explored the degradation of value of art as it is mass-produced. Through this process, every time another copy is made, its exclusivity and originality is slowly lost. Therefore, a lack of appreciation for these works begins to form."
+                },
+                {
+                    "block_title": "Sculpture 1",
+                    "images": ["1.JPG", "2.gif"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Sculpture 2",
+                    "images": ["3.JPG", "4.gif"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Sculpture 3",
+                    "images": ["5.JPG", "6.gif"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Sculpture 4",
+                    "images": ["7.JPG", "8.gif"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Sculpture 5",
+                    "images": ["9.JPG", "10.gif"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Sculpture 6",
+                    "images": ["11.JPG", "12.gif"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Sculpture 7",
+                    "images": ["13.JPG", "14.gif"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Sculpture 8",
+                    "images": ["15.JPG", "16.gif"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Video",
+                    "images": ["video.mp4"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Northeast",
+            "date": "2023-07-01",
+            "class": "Personal Project",
+            "year": "Senior Year",
+            "skills/tools": ["Photography", "Photoshop"],
+            "category": "Photography",
+            "attributes": ["Photography"],
+            "subtitle": "",
+            "cover_image": "7.jpg",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Boston",
+                    "images": ["1.jpg", "2.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Newport",
+                    "images": ["3.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "NYC",
+                    "images": ["4.jpg, 5.jpg, 6.jpg, 7.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Southampton",
+                    "images": ["9.jpg"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Tenerife",
+            "date": "2023-07-01",
+            "class": "Personal Project",
+            "year": "Senior Year",
+            "skills/tools": ["Photography", "Photoshop"],
+            "category": "Photography",
+            "attributes": ["Photography"],
+            "subtitle": "",
+            "cover_image": "7.jpg",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "",
+                    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Thailand",
+            "date": "2022-07-01",
+            "class": "Personal Project",
+            "year": "Junior Year",
+            "skills/tools": ["Photography", "Photoshop"],
+            "category": "Photography",
+            "attributes": ["Photography"],
+            "subtitle": "",
+            "cover_image": "9.jpg",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Bangkok",
+                    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Chiang Mai",
+                    "images": ["6.jpg", "7.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Khao Sok",
+                    "images": ["8.jpg", "10.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "Phuket",
+                    "images": ["11.jpg"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Peru",
+            "date": "2021-11-01",
+            "class": "Personal Project",
+            "year": "Sophomore Year",
+            "skills/tools": ["Photography", "Photoshop"],
+            "category": "Photography",
+            "attributes": ["Photography"],
+            "subtitle": "",
+            "cover_image": "1.JPG",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Lima",
+                    "images": ["2.JPG", "3.JPG", "4.JPG"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Paris",
+            "date": "2020-10-01",
+            "class": "Personal Project",
+            "year": "Freshman Year",
+            "skills/tools": ["Photography", "Photoshop"],
+            "category": "Photography",
+            "attributes": ["Photography"],
+            "subtitle": "Photography",
+            "cover_image": "6.JPG",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "",
+                    "images": ["1.JPG", "2.JPG", "3.JPG", "4.JPG", "5.JPG", "7.JPG"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Amsterdam",
+            "date": "2019-11-01",
+            "class": "Personal Project",
+            "year": "Senior Year HS",
+            "skills/tools": ["Photography", "Photoshop"],
+            "category": "Photography",
+            "attributes": ["Photography"],
+            "subtitle": "",
+            "cover_image": "7.jpg",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "",
+                    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg"],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Still Life & The Figure",
+            "date": "2020-11-01",
+            "class": "Drawing & Imaging",
+            "year": "Freshman Year",
+            "skills/tools": ["Charcoal", "Guache"],
+            "category": "Fine Art",
+            "attributes": ["Fine Art"],
+            "subtitle": "",
+            "cover_image": "5.jpg",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Nature Morte",
+                    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "The Figure",
+                    "images": ["8.jpg", "9.jpg", "10.jpg", "7.jpg"],
+                    "paragraph": ""
+                },
+                {
+                    "block_title": "",
+                    "images": [""],
+                    "paragraph": ""
+                }
+            ]
+        },
+        {
+            "name": "Mapping Travels",
+            "date": "2024-05-01",
+            "class": "Communication Design Studio: Javascript",
+            "year": "Senior Year",
+            "skills/tools": ["p5.js", "JavaScript", "Photoshop", "HTML", "CSS", "jQuery"],
+            "category": "Design Technology",
+            "attributes": ["Creative Code", "Web", "Interactive"],
+            "subtitle": "",
+            "cover_image": "cover.png",
+            "project_link": "",
+            "web_content": [
+                {
+                    "block_title": "Prompt",
+                    "images": [""],
+                    "paragraph": "API's are the wheels of the web. They contain all the data we could ever imagine. With this project I wanted to visually depict the contrasting effects of travel through data."
+                },
+                {
+                    "block_title": "Outcome",
+                    "images": [""],
+                    "paragraph": "On the one hand, there is a data visualization of organic shaped drops, uniquely placed as a response to the inputted destinations. It gives the user the ability to visually depict a year of travels and save their visualization. On the other hand, all of those travels also garner a humongous weight of CO2 emissions that we often don't consider when traveling."
+                },
+                {
+                    "block_title": "Use",
+                    "images": [""],
+                    "paragraph": "Type in the airport codes of all the airports you have visited throughout one year of travels. Make sure they are Capitalized! And what the visualization come to life."
+                }
+            ]
+        }
+    ],
+    "categories": [
+      {
+        "name": "Strategic Design"
+      },
+      {
+        "name": "Design Technology"
+      },
+      {
+        "name": "Photography"
+      },
+      {
+        "name": "Graphic Design"
+      },
+      {
+        "name": "Fine Art"
+      }
+    ]
+}

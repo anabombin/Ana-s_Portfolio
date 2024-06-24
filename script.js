@@ -135,53 +135,23 @@ $.getJSON('projects.json', function (graph) {
             left: 'right'
         },
         tooltip: {},
-        // legend: [
-        //     {
-        //         data: graph.projects.map(function (project) {
-        //             return uniqueAttributes;
-        //         })
-        //     }
-        // ],
-        // legend: {
-        //     zlevel: 2,
-        //     orient: 'vertical', // Orientation of the legend
-        //     // top: 'center', // Positioning on the chart
-        //     // right: 20, // Adjust as needed
-        //     left: '5%',   // Move legend 10% from the left
-        //     top: '5%',
-        //     data: uniqueAttributes.map(function (attribute) {
-        //         return {
-        //             name: attribute,
-        //             icon: 'circle' // Customize the legend icon if needed
-        //         };
-        //     })
-        // },
-        // legend: {
-        //         z: 4,
-        //         backgroundColor: "red",
-        //         left: 'center', 
-        //         top: '20%,',
-        //         textStyle: {
-        //             color: 'black',
-        //             fontSize: 12
-        //           },
-        //         // data: Array.from(uniqueAttributes)
-        //         // data: categories
-        //         data: graph.categories.map(function (a) {
-        //             return a.name;
-        //             })
-        //           };
-        //     },
         legend: {
             z: 4,
-            left: 'center',
+            orient: "vertical",
+            left: 'right',
             top: '5%',
             textStyle: {
                 color: 'black',
                 fontSize: 12
             },
-            data: graph.categories.map(function (a) {
-                return a.name;
+            data: graph.categories.map(function (category) {
+                return {
+                    name: category.name,
+                    icon: 'circle',
+                    itemStyle: {
+                        color: categoryColors[category.name]
+                    }
+                };
             })
         },
         animationDurationUpdate: 1500,
@@ -199,8 +169,12 @@ $.getJSON('projects.json', function (graph) {
                 data: graph.projects.map(function (project, index) {
                     return {
                         name: project.name,
+                        category: project.category,
                         value: project.date,
-                        symbolSize: 20,
+                        symbolSize: 8,
+                        itemStyle: {
+                            color: categoryColors[project.category]
+                        },
                         label: {
                             // show: true,
                             position: 'right',
@@ -217,11 +191,11 @@ $.getJSON('projects.json', function (graph) {
                 lineStyle: {
                     curveness: 0.3
                 },
-                itemStyle: {
-                    borderColor: 'black',
-                    color: 'white',
-                    // stroke: attributeColors[project.attributes[0]] // Change symbol color here
-                },
+                // itemStyle: {
+                //     borderColor: 'black',
+                //     color: 'white',
+                //     // stroke: attributeColors[project.attributes[0]] // Change symbol color here
+                // },
                 // Additional graphic elements (labels)
                 // graphic: additionalLabels
                 graphic: {
@@ -266,3 +240,42 @@ $.getJSON('projects.json', function (graph) {
 });
 
 // option && myChart.setOption(option);
+
+
+        // legend: [
+        //     {
+        //         data: graph.projects.map(function (project) {
+        //             return uniqueAttributes;
+        //         })
+        //     }
+        // ],
+        // legend: {
+        //     zlevel: 2,
+        //     orient: 'vertical', // Orientation of the legend
+        //     // top: 'center', // Positioning on the chart
+        //     // right: 20, // Adjust as needed
+        //     left: '5%',   // Move legend 10% from the left
+        //     top: '5%',
+        //     data: uniqueAttributes.map(function (attribute) {
+        //         return {
+        //             name: attribute,
+        //             icon: 'circle' // Customize the legend icon if needed
+        //         };
+        //     })
+        // },
+        // legend: {
+        //         z: 4,
+        //         backgroundColor: "red",
+        //         left: 'center', 
+        //         top: '20%,',
+        //         textStyle: {
+        //             color: 'black',
+        //             fontSize: 12
+        //           },
+        //         // data: Array.from(uniqueAttributes)
+        //         // data: categories
+        //         data: graph.categories.map(function (a) {
+        //             return a.name;
+        //             })
+        //           };
+        //     },

@@ -8,9 +8,6 @@
 .container {
     height: 100vh;
     width: 100vw;
-}
-
-.container {
     display: flex;
     align-content: center;
     align-items: center;
@@ -22,4 +19,73 @@
     height: 100%;
     align-content: center;
     align-items: center;
+    border: 1px solid black;
+    /* z-index: -1; */
+}
+
+.content {
+    display: flex;
+    border: 1px solid red;
+    height: 100vh;
+    width: 20vw;
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    padding-bottom: 5vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%; /* Make sure it takes full width */
+    align-items: flex-end; /* Align items to the end vertically */
+    flex-grow: 1;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Changed from end to start */
+    width: 20vw;
+    border: 1px solid black;
+    height: 40vh;
+    position: relative;
+}
+
+.title {
+    border-left: 1px solid black;
+    width: 2vw;
+    height: 100%;
+    display: flex;
+    align-items: flex-end; /* Align text to the bottom */
+    position: relative;
+}
+
+.rot-title {
+    transform: rotate(-90deg); /* Use transform for rotation */
+    transform-origin: bottom left; /* Set the origin point for rotation */
+    position: absolute; /* Position absolutely within the title div */
+    bottom: 0; /* Align to the bottom */
+    text-align: right; /* Ensure the text is right-aligned after rotation */
+    border: 1px solid green;
+}
+
+.box_content {
+    width: 15vw;
+    height: 100%;
+    padding-left: 5px;
+}
+
+#featured-content {
+    display: none;
+    position: absolute;
+    right: -15vw; /* Position off-screen to the right */
+    top: 0;
+    transition: right 0.5s ease; /* Smooth transition effect */
+}
+
+#feature:hover #featured-content {
+    display: block;
+    right: 0; /* Slide in from the right */
 }

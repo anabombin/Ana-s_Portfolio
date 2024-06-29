@@ -105,7 +105,7 @@ var symbolSizes = graph.projects.map((project, index) => {
             text: 'Projects',
             subtext: 'Sorted by Date Descending',
             top: 'bottom',
-            left: 'right'
+            left: 'left'
         },
         tooltip: {},
         legend: {
@@ -164,60 +164,100 @@ var symbolSizes = graph.projects.map((project, index) => {
                 categories: graph.categories,
                 lineStyle: {
                     curveness: 0.3
-                },
-                // itemStyle: {
-                //     borderColor: 'black',
-                //     color: 'white',
-                //     // stroke: attributeColors[project.attributes[0]] // Change symbol color here
-                // },
-                // Additional graphic elements (labels)
-                // graphic: additionalLabels
-                // graphic: additionalLabels // Add the additional labels
-                // graphic: {
-                //     show: true,
-                //     type: 'group',
-                //     z: 10,
-                //     children: [
-                //         {
-                //             type: 'rect',
-                //             id: 'rect1',
-                //             text: '2024',
-                //             x: 50,
-                //             y: 50,
-                //             fontSize: 30,
-                //             color: 'black'
-                //             // ...
-                //         },
-                //         {
-                //             type: 'rect',
-                //             id: 'rect2',
-                //             text: '2023',
-                //             x: 100,
-                //             y: 200
-                //             // ...
-                //         },
-                //         {
-                //             type: 'rect',
-                //             id: 'rect3',
-                //             text: '2022',
-                //             x: 100,
-                //             y: 200
-                //             // ...
-                //         }
-                //     ]
-                // }
+                }
             }
         ]
     };
 
     
     option && myChart.setOption(option);
-});
 
-$(document).ready(function() {
-    $("#featured_title").hover(function() {
-        $("#featured_content").css("right", "0");
-    }, function() {
-        $("#featured_content").css("right", "-15vw");
+    var selectedProjectIndex = null;
+
+    myChart.on('click', function (params) {
+        if (params.seriesType === 'graph') {
+            // alert('You clicked on ' + params.name);
+            // Perform other actions for a specific project click
+            // move .main div to the side
+            moveCanvasLeft();
+            toggleLegendAndLabels(false);
+            toggleFeature(true);
+
+             // Store the index of the selected project
+             selectedProjectIndex = params.dataIndex;
+             console.log('Selected project index:', selectedProjectIndex);
+
+             // Create a new project row based on the template
+            createProjectRow(selectedProjectIndex, graph.projects);
+        } else {
+            console.log('Canvas clicked');
+            // Perform actions for canvas click (if needed)
+        }
     });
+
+    // Click event handler for the document body
+    $(document.body).on('click', function (event) {
+        var $target = $(event.target);
+        if (!$target.closest('#main').length) {
+            moveCanvasCenter();
+            toggleLegendAndLabels(true);
+            toggleFeature(false);
+        }
+    });
+
+    // Function to move canvas to the left
+    function moveCanvasLeft() {
+        $('.container').addClass('canvas-left');
+    }
+
+    // Function to move canvas to the center
+    function moveCanvasCenter() {
+        $('.container').removeClass('canvas-left');
+    }
+
+    // Function to toggle legend and labels visibility
+    function toggleLegendAndLabels(show) {
+        var option = myChart.getOption();
+        var option = myChart.getOption();
+        
+        // Toggle legend visibility
+        option.legend[0].show = show;
+        // Toggle tooltip visibility
+        option.tooltip[0].show = show;
+    
+        myChart.setOption(option);
+    }
+
+    function toggleFeature(show) {
+        console.log("toggleFeature called with show:", show);
+        if (show) {
+            $('#feature').hide(); // Hide feature content
+            $('.project-content').show(); // Show project content
+            $('.project-content').css('left', '25vw');
+        } else {
+            $('#feature').show(); // Show feature content
+            $('.project-content').hide();
+            $('.project-content').css('left', '100vw'); // Hide project content
+        }
+    }
+
+
+    // Function to create a new project row based on the selected project
+    function createProjectRow(index, projects) {
+        var project = projects[index];
+        console.log(project)
+        // Clone the template and show it
+        var $newRow = $('#projectTemplate').clone().removeAttr('id').show();
+
+        // Populate the cloned row with project data
+        $newRow.find('.rot-title').text(project.name);
+        $newRow.find('.project-image').attr('src', project.cover_image);
+        $newRow.find('.project-title').text(project.name);
+        $newRow.find('.project-date').text(project.date);
+        $newRow.find('.project-subtitle').text(project.subtitle);
+        console.log(project.date)
+
+        // Append the new row to the container (assuming you have a container with ID "projects-container")
+        $('#project-content').empty().append($newRow);
+    }
 });

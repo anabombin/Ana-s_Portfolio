@@ -80,7 +80,8 @@
                 },
                 {
                     "block_title": "Video",
-                    "images": ["video.mp4"],
+                    "images": "",
+                    "video":["video.mp4"],
                     "paragraph": ""
                 }
             ]
@@ -121,7 +122,8 @@
                 },
                 {
                     "block_title": "Final Site",
-                    "images": ["video.mov"],
+                    "images": "",
+                    "video": ["video.mov"],
                     "paragraph": ""
                 }
             ]
@@ -196,7 +198,8 @@
                 },
                 {
                     "block_title": "Video",
-                    "images": ["video.mov"],
+                    "images": "",
+                    "video": ["video.mov"],
                     "paragraph": ""
                 },
                 {
@@ -333,7 +336,8 @@
                 },
                 {
                     "block_title": "Video",
-                    "images": ["video.mov"],
+                    "images": "",
+                    "video": ["video.mov"],
                     "paragraph": ""
                 }
             ]
@@ -363,7 +367,8 @@
                 },
                 {
                     "block_title": "Video",
-                    "images": ["video.mov"],
+                    "images": "",
+                    "video": ["video.mov"],
                     "paragraph": ""
                 }
             ]
@@ -553,7 +558,8 @@
                 },
                 {
                     "block_title": "Video",
-                    "images": ["video.mov"],
+                    "images": "",
+                    "video": ["video.mov"],
                     "paragraph": ""
                 },
                 {
@@ -643,7 +649,8 @@
                 },
                 {
                     "block_title": "Video",
-                    "images": ["video.mp4"],
+                    "images": "",
+                    "video": ["video.mp4"],
                     "paragraph": ""
                 }
             ]
@@ -673,7 +680,7 @@
                 },
                 {
                     "block_title": "NYC",
-                    "images": ["4.jpg, 5.jpg, 6.jpg, 7.jpg"],
+                    "images": ["4.jpg", "5.jpg", "6.jpg", "7.jpg"],
                     "paragraph": ""
                 },
                 {

@@ -313,7 +313,7 @@ var symbolSizes = graph.projects.map((project, index) => {
             $contentImages.empty();
             content.images.forEach(function(image) {
                 if (image.trim() !== "") {
-                    var $img = $('<img>').attr('src', 'images/' + (index + 1) + '/' + image).css({
+                    var $img = $('<img>').attr('src', 'images/' + project.id + '/' + image).css({
                         width: '100%', // Ensure images take the full width of the grid cell
                         height: 'auto', // Maintain aspect ratio
                         'object-fit': 'cover' // Ensure the image covers the container, cropping if necessary
@@ -344,6 +344,21 @@ var symbolSizes = graph.projects.map((project, index) => {
         } else {
             $contentIframe.remove(); // Remove the iframe div if no iframe content
         }
+
+       // Add video if it exists
+       var $contentVideo = $newRow.find('.content-video');
+       if (content.video && content.video.length > 0 && content.video[0].trim() !== "") {
+           var $video = $('<video controls>')
+               .append($('<source>').attr('src', 'videos/' + content.video[0]).attr('type', 'video/mp4'))
+               .css({
+                   width: '100%',
+                   height: '300px',
+                   border: 'none'
+               });
+           $contentVideo.empty().append($video).show();
+       } else {
+           $contentVideo.remove(); // Remove the video div if no video content
+       }
 
         // Append the new row to the project content container
         $('.project-content').append($newRow);

@@ -102,8 +102,8 @@ var symbolSizes = graph.projects.map((project, index) => {
 
     option = {
         title: {
-            text: 'Projects',
-            subtext: 'Sorted by Date Descending',
+            text: '',
+            // subtext: 'Sorted by Date Descending',
             top: 'bottom',
             left: 'left'
         },
@@ -208,11 +208,15 @@ var symbolSizes = graph.projects.map((project, index) => {
     // Function to move canvas to the left
     function moveCanvasLeft() {
         $('.container').addClass('canvas-left');
+        // $('.project-content').addClass('content-down');
+        // $('.selected-project-title').addClass('title-down');
     }
 
     // Function to move canvas to the center
     function moveCanvasCenter() {
         $('.container').removeClass('canvas-left');
+        // $('.project-content').removeClass('content-down');
+        // $('.selected-project-title').removeClass('title-down');
     }
 
     // Function to toggle legend and labels visibility
@@ -235,33 +239,16 @@ var symbolSizes = graph.projects.map((project, index) => {
             $('.project-content').show(); // Show project content
             $('.selected-project-title').show(); // Show project title
             $('.project-content').css('left', '25vw');
+            // $('.project-content').show();
         } else {
             $('#feature').show(); // Show feature content
             $('.project-content').hide();
             $('.selected-project-title').hide(); // Show project title
             $('.project-content').css('left', '100vw'); // Hide project content
+            // $('.project-content').hide();
         }
     }
 
-
-    // // Function to create a new project row based on the selected project
-    // function createProjectRow(index, projects) {
-    //     var project = projects[index];
-    //     console.log(project)
-    //     // Clone the template and show it
-    //     var $newRow = $('#projectTemplate').clone().removeAttr('id').show();
-
-    //     // Populate the cloned row with project data
-    //     $newRow.find('.rot-title').text(project.name);
-    //     $newRow.find('.project-image').attr('src', project.cover_image);
-    //     $newRow.find('.project-title').text(project.name);
-    //     $newRow.find('.project-date').text(project.date);
-    //     $newRow.find('.project-subtitle').text(project.subtitle);
-    //     console.log(project.date)
-
-    //     // Append the new row to the container (assuming you have a container with ID "projects-container")
-    //     $('#project-content').empty().append($newRow);
-    // }
 
     // Function to populate project content based on the selected project
     function populateProjectContent(index, projects) {

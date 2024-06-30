@@ -20,7 +20,7 @@
 }
 
 .canvas-left {
-    transform: translateX(-50%); /* Move canvas to the left */
+    transform: translateX(-60%); /* Move canvas to the left */
 }
 
 #main {
@@ -36,7 +36,7 @@
     position: absolute;
     bottom: 0px;
     right: 0px;
-    padding-bottom: 5vh;
+    padding-bottom: 1vh;
 }
 
 .menu {
@@ -53,18 +53,24 @@
     flex-direction: row;
     justify-content: flex-start; /* Changed from end to start */
     width: 20vw;
-    height: 40vh;
-    margin-bottom: 3vh;
+    height: 60vh;
+    margin-bottom: 1vh;
+    margin-left: 3px;
+    border-left: 2px solid black;
 }
 
 .title {
-    border-left: 2px solid black;
+    /* border-left: 2px solid black; */
     width: 1vw;
     height: 100%; /* Ensure full height */
     display: flex;
     align-items: flex-end; /* Center align */
     justify-content: flex-start; /* Center align horizontally */
     position: relative;
+}
+
+#featured_title {
+    border-bottom: 2px solid black;
 }
 
 .rot-title {
@@ -103,18 +109,30 @@
 /* Font sizes general */
 
 h3 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-family: "Inria Sans", sans-serif;
+    font-size: x-large;
+    font-weight: 300;
 }
 
 h4 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-family: "Inria Sans", sans-serif;
+    font-size: xx-large;
+    font-weight: 300;
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: x-small;
+    font-family: "Inria Sans", sans-serif;
+    font-size: small;
+    font-weight: 300;
+}
+li {
+    font-family: "Inria Sans", sans-serif;
+    font-size: small;
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
 }
 
 /* Project Content Styling */
@@ -180,7 +198,7 @@ p {
     width: 100%;
     height: auto; /* Allow height to adjust based on content */
     margin-bottom: 3vh;
-    border-left: 1px solid black;
+    border-left: 2px solid black;
 }
 
 .tools {
@@ -191,5 +209,64 @@ p {
     width: 100%;
     height: auto; /* Allow height to adjust based on content */
     margin-bottom: 3vh;
-    border-left: 1px solid black;
+    border-left: 2px solid black;
+}
+
+/* web content to be filled */
+
+.web-content-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end; /* Align items to the start */
+    width: 100%;
+    height: auto; /* Allow height to adjust based on content */
+    margin-bottom: 3vh;
+    border-left: 2px solid black;
+}
+
+.web-box-content {
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    padding-left: 5px;
+    /* border-left: 2px solid black; */
+}
+
+.content-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end; /* Align items to the start */
+    width: 100%;
+    height: 25vh; /* Allow height to adjust based on content */
+    /* margin-bottom: 3vh; */
+    /* border-left: 2px solid black; */
+}
+
+.content-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end; /* Align items to the start */
+    width: 100%;
+    height: 100%; /* Allow height to adjust based on content */
+    margin-bottom: 3vh;
+    /* border-left: 2px solid black; */
+}
+
+.content-images img {
+    width: auto;
+    max-height: 35vh; /* Ensure it doesn't exceed parent width */
+}
+
+.content-iframe {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end; /* Align items to the start */
+    width: 100%;
+    height: 30vh; /* Allow height to adjust based on content */
+    margin-bottom: 3vh;
+    /* border-left: 2px solid black; */
 }

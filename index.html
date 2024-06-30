@@ -7,6 +7,9 @@
     <title>Ana Bombin Ordas</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
 </head>
 <body>
@@ -19,7 +22,7 @@
             <div class="menu">
                 <div class="row" id="feature">
                     <div class="title" >
-                        <h3 class="rot-title" id="featured_title">FEATURED</h3>
+                        <h3 class="rot-title">FEATURED</h3>
                     </div>
                     <div class="box_content" id="featured_content">
                         <img src="images/1/cover.png">
@@ -32,18 +35,25 @@
         </div>
     </div>
 
-    <!-- Template for row -->
-    <!-- <template id="projectTemplate">
-        <div class="project-row">
-            <h3 class="rot-title"></h3>
-            <div class="box_content">
-                <img class="project-image">
-                <h4 class="project-title"></h4>
-                <p class="project-date"></p>
-                <p class="project-subtitle"></p>
+    <!-- Template for project rows -->
+    <template id="projectTemplate">
+        <div class="web-content-row">
+            <div class="title" >
+                <h3 class="rot-title" id="row_title"></h3>
+            </div>
+            <div class="web-box-content">
+                <div class="content-text">
+                    <p class="project-paragraph"></p>
+                </div>
+                <div class="content-images">
+                    <!-- grid of images here. Max 3 images per row -->
+                </div>
+                <div class="content-iframe">
+                    <!-- iframe here -->
+                </div>
             </div>
         </div>
-    </template> -->
+    </template>
 
     <div class="project-content">
         <!-- Project content column toggles on and off but content goes here -->
@@ -54,14 +64,14 @@
             <div class="cover-content" id="cover-content">
                 <img class="project-cover">
                 <p class="project-date"></p>
-                <p ><a class="project-link" href="">Project Link</a></p>
+                <p ><a class="project-link" href="">PROJECT LINK</a></p>
                 <p class="project-subtitle"></p>
             </div>
         </div>
         <div class="skills-tools">
             <div class="skills">
                 <div class="title" >
-                    <h3 class="rot-title" id="skills_title">Skills</h3>
+                    <h3 class="rot-title" id="skills_title">SKILLS</h3>
                 </div>
                 <div class="list-content" id="skills-content">
                     <ul class="bullet-list">
@@ -71,7 +81,7 @@
             </div>
             <div class="tools">
                 <div class="title" >
-                    <h3 class="rot-title" id="tools_title">Tools</h3>
+                    <h3 class="rot-title" id="tools_title">TOOLS</h3>
                 </div>
                 <div class="list-content" id="tools-content">
                     <ul class="bullet-list">
@@ -80,6 +90,7 @@
                 </div>
             </div>
         </div>
+        <!-- web content filled templates go here -->
     </div>
     
 

@@ -267,7 +267,7 @@ var symbolSizes = graph.projects.map((project, index) => {
         var imagePath = 'images/' + project.id + '/' + project.cover_image;
 
         // Populate the project content with project data
-        $('#cover_title').text(project.name);
+        $('#cover_title').text(project.class);
         $('.project-cover').attr('src', imagePath);
         $('.project-date').text(project.date);
         $('.project-link').attr('href', project.project_link);
@@ -288,5 +288,58 @@ var symbolSizes = graph.projects.map((project, index) => {
             var $li = $('<li>').text(tool);
             $toolsList.append($li);
         });
+
+        // Clear existing web content
+    $('.project-content').find('.web-content-row').remove();
+
+    // Populate web content rows
+    project.web_content.forEach(function(content, contentIndex) {
+        var $template = $('#projectTemplate').html(); // Get the template content as HTML
+        var $newRow = $($template); // Convert the template content to a jQuery object
+
+        // Populate the cloned row with project data
+        $newRow.find('#row_title').text(content.block_title);
+
+        // Add paragraph if it exists
+        if (content.paragraph) {
+            $newRow.find('.project-paragraph').text(content.paragraph).show();
+        } else {
+            $newRow.find('.project-paragraph').remove(); // Remove the paragraph div if no content
+        }
+
+        // Add images if they exist and are not empty strings
+        var $contentImages = $newRow.find('.content-images');
+        if (content.images && content.images.some(image => image.trim() !== "")) {
+            $contentImages.empty();
+            content.images.forEach(function(image) {
+                if (image.trim() !== "") {
+                    var $img = $('<img>').attr('src', 'images/' + (index + 1) + '/' + image).css({
+                        width: '30%',
+                        margin: '5px'
+                    });
+                    $contentImages.append($img);
+                }
+            });
+            $contentImages.show();
+        } else {
+            $contentImages.remove(); // Remove the images div if no images
+        }
+
+        // Add iframe if it exists
+        var $contentIframe = $newRow.find('.content-iframe');
+        if (content.iframe && content.iframe.trim() !== "") {
+            var $iframe = $('<iframe>').attr('src', content.iframe).css({
+                width: '100%',
+                height: '300px',
+                border: 'none'
+            });
+            $contentIframe.empty().append($iframe).show();
+        } else {
+            $contentIframe.remove(); // Remove the iframe div if no iframe content
+        }
+
+        // Append the new row to the project content container
+        $('.project-content').append($newRow);
+    });
     }
 });

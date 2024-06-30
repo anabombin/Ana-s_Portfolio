@@ -267,9 +267,26 @@ var symbolSizes = graph.projects.map((project, index) => {
         var imagePath = 'images/' + project.id + '/' + project.cover_image;
 
         // Populate the project content with project data
-        $('.rot-title').text(project.name);
+        $('#cover_title').text(project.name);
         $('.project-cover').attr('src', imagePath);
         $('.project-date').text(project.date);
+        $('.project-link').attr('href', project.project_link);
         $('.project-subtitle').text(project.subtitle);
+
+        // Populate attributes list
+        var $attributesList = $('#skills-content .bullet-list');
+        $attributesList.empty(); // Clear any existing list items
+        project.attributes.forEach(function(attribute) {
+            var $li = $('<li>').text(attribute);
+            $attributesList.append($li);
+        });
+
+        // Populate tools list
+        var $toolsList = $('#tools-content .bullet-list');
+        $toolsList.empty(); // Clear any existing list items
+        project.tools.forEach(function(tool) {
+            var $li = $('<li>').text(tool);
+            $toolsList.append($li);
+        });
     }
 });

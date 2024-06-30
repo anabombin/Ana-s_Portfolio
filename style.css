@@ -12,6 +12,8 @@
     align-content: center;
     align-items: center;
     overflow: hidden; Ensure no overflow hides transition */
+    position: fixed;
+    top: 0px;
     margin: auto; /* Centered initially */
     transform: translateX(0); /* Default position */
     transition: transform 0.3s ease; /* Smooth transition */
@@ -119,9 +121,9 @@ p {
 
 .project-content {
     height: 100vh;
-    width: 50vw;
+    width: 60vw;
     position: absolute;
-    left: 25vw;
+    left: 35vw;
     top: 10px;
     z-index: 5;
     display: none;
@@ -143,14 +145,14 @@ p {
 .cover-content {
     display: flex;
     flex-direction: column;
-    width: 45vw;
+    width: 55vw;
     padding-left: 5px;
 }
 
 .cover-content img {
     height: auto; /* Maintain aspect ratio */
     width: auto;
-    max-width: 45vw; /* Use 100% to fill the parent width */
+    max-width: 55vw; /* Use 100% to fill the parent width */
     max-height: 75vh; /* Ensure it doesn't exceed parent width */
 }
 
@@ -160,4 +162,34 @@ p {
 
 .cover-content > * {
     padding-bottom: 5px;
+}
+
+.skills-tools {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end; /* Align items to the start */
+    width: 100%;
+    height: auto; /* Allow height to adjust based on content */
+    margin-bottom: 3vh;
+    border-left: 1px solid black;
+}
+
+.tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end; /* Align items to the start */
+    width: 100%;
+    height: auto; /* Allow height to adjust based on content */
+    margin-bottom: 3vh;
+    border-left: 1px solid black;
 }

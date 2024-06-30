@@ -15,7 +15,6 @@
     margin: auto; /* Centered initially */
     transform: translateX(0); /* Default position */
     transition: transform 0.3s ease; /* Smooth transition */
-    border: 1px solid red;
 }
 
 .canvas-left {
@@ -58,20 +57,21 @@
 
 .title {
     border-left: 2px solid black;
-    width: 2vw;
-    height: 100%;
+    width: 1vw;
+    height: 100%; /* Ensure full height */
     display: flex;
-    align-items: flex-end; /* Align text to the bottom */
+    align-items: flex-end; /* Center align */
+    justify-content: flex-start; /* Center align horizontally */
     position: relative;
 }
 
 .rot-title {
-    transform: rotate(-90deg); /* Use transform for rotation */
-    transform-origin: bottom left; /* Set the origin point for rotation */
-    position: absolute; /* Position absolutely within the title div */
-    bottom: 0; /* Align to the bottom */
-    text-align: right; /* Ensure the text is right-aligned after rotation */
-    /* border: 1px solid green; */
+    transform: rotate(-90deg); /* Rotate the text */
+    transform-origin: left bottom; /* Adjust origin to start from top-left corner */
+    position: absolute; /* Absolute positioning */
+    white-space: nowrap; /* Prevent text wrapping */
+    bottom: 0;
+    text-align: flex-start; /* Center align text within rotated element */
 }
 
 .box_content {
@@ -115,14 +115,49 @@ p {
     font-size: x-small;
 }
 
+/* Project Content Styling */
+
 .project-content {
     height: 100vh;
     width: 50vw;
     position: absolute;
     left: 25vw;
-    top: 0px;
+    top: 10px;
     z-index: 5;
     display: none;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     transition: left 0.3s ease; /* Smooth transition */
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end; /* Align items to the start */
+    width: 100%;
+    height: auto; /* Allow height to adjust based on content */
+    margin-bottom: 3vh;
+    border-left: 2px solid black;
+}
+
+.cover-content {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    padding-left: 5px;
+}
+
+.cover-content img {
+    height: auto; /* Maintain aspect ratio */
+    width: auto;
+    max-width: 45vw; /* Use 100% to fill the parent width */
+    max-height: 75vh; /* Ensure it doesn't exceed parent width */
+}
+
+#cover-title {
+    height: 100%;
+}
+
+.cover-content > * {
+    padding-bottom: 5px;
 }

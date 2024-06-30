@@ -1,6 +1,7 @@
 {
     "projects": [
         {
+            "id": 1,
             "name": "The Gender gap in the 21st Century",
             "date": "2024-05-01",
             "class": "Capstone",
@@ -9,7 +10,7 @@
             "category": "Strategic Design",
             "attributes": ["Design Research", "Strategic Design", "Creative Code"],
             "subtitle": "Tackling the gender gap in tech through the lense of computer science education in hopes of expanding young girls' field of opportunities and ultimately driving the necessary change in tech.",
-            "cover_image": "cover.jpg",
+            "cover_image": "cover.png",
             "project_link": "https://www.parsonsbba.com/sp24-studentprojects-1/computers%2B%2B",
             "web_content": [
                 {
@@ -85,6 +86,7 @@
             ]
         },
         {
+            "id": 2,
             "name": "Interactive Travel Journal",
             "date": "2024-02-01",
             "class": "Communication Design Studio: Javascript",
@@ -125,6 +127,7 @@
             ]
         },
         {
+            "id": 3,
             "name": "The Gender Gap in Tech through Data",
             "date": "2023-12-01",
             "class": "Code Toolkit: Python",
@@ -164,6 +167,7 @@
             ]
         },
         {
+            "id": 4,
             "name": "Autobiographical Game",
             "date": "2023-11-01",
             "class": "Critical Computation",
@@ -203,6 +207,7 @@
             ]
         },
         {
+            "id": 5,
             "name": "NYC Safe Transit",
             "date": "2023-05-01",
             "class": "Innovation",
@@ -252,6 +257,7 @@
             ]
         },
         {
+            "id": 6,
             "name": "Collection",
             "date": "2023-01-01",
             "class": "Personal Project",
@@ -293,6 +299,7 @@
             ]
         },
         {
+            "id": 7,
             "name": "NYCItyCampus.com",
             "date": "2022-05-01",
             "class": "Communication Design Studio: Interaction",
@@ -332,6 +339,7 @@
             ]
         },
         {
+            "id": 8,
             "name": "Chiquilin Brand Publication",
             "date": "2023-05-01",
             "class": "Communication Design Studio: Systems for Brands",
@@ -361,6 +369,7 @@
             ]
         },
         {
+            "id": 9,
             "name": "COCOtering Rebrand",
             "date": "2023-01-01",
             "class": "Personal Project",
@@ -380,6 +389,7 @@
             ]
         },
         {
+            "id": 10,
             "name": "Hitchcock Posters",
             "date": "2022-12-01",
             "class": "Communication Design Studio: Typography",
@@ -414,6 +424,7 @@
             ]
         },
         {
+            "id": 11,
             "name": "Pixel Offset Algorithm",
             "date": "2024-04-01",
             "class": "Communication Design Studio: Javascript",
@@ -448,6 +459,7 @@
             ]
         },
         {
+            "id": 12,
             "name": "Travel Posters",
             "date": "Ongoing",
             "class": "Personal Project",
@@ -467,6 +479,7 @@
             ]
         },
         {
+            "id": 13,
             "name": "Digital Patterns",
             "date": "2022-05-01",
             "class": "Personal Project",
@@ -486,6 +499,7 @@
             ]
         },
         {
+            "id": 14,
             "name": "Study Space Inspired by Verner Panton",
             "date": "2021-12-01",
             "class": "History of Design",
@@ -520,6 +534,7 @@
             ]
         },
         {
+            "id": 15,
             "name": "Impossible Fashion Collection",
             "date": "2021-05-01",
             "class": "Time",
@@ -549,6 +564,7 @@
             ]
         },
         {
+            "id": 16,
             "name": "Print Ad Series",
             "date": "2021-05-01",
             "class": "Drawing & Imaging",
@@ -568,6 +584,7 @@
             ]
         },
         {
+            "id": 17,
             "name": "Making 'The Head(s)'",
             "date": "2021-05-01",
             "class": "Integrative Studio 2",
@@ -632,6 +649,7 @@
             ]
         },
         {
+            "id": 18,
             "name": "Northeast",
             "date": "2023-07-01",
             "class": "Personal Project",
@@ -666,6 +684,7 @@
             ]
         },
         {
+            "id": 19,
             "name": "Tenerife",
             "date": "2023-07-01",
             "class": "Personal Project",
@@ -685,6 +704,7 @@
             ]
         },
         {
+            "id": 20,
             "name": "Thailand",
             "date": "2022-07-01",
             "class": "Personal Project",
@@ -719,6 +739,7 @@
             ]
         },
         {
+            "id": 21,
             "name": "Peru",
             "date": "2021-11-01",
             "class": "Personal Project",
@@ -738,6 +759,7 @@
             ]
         },
         {
+            "id": 22,
             "name": "Paris",
             "date": "2020-10-01",
             "class": "Personal Project",
@@ -757,6 +779,7 @@
             ]
         },
         {
+            "id": 23,
             "name": "Amsterdam",
             "date": "2019-11-01",
             "class": "Personal Project",
@@ -776,6 +799,7 @@
             ]
         },
         {
+            "id": 24,
             "name": "Still Life & The Figure",
             "date": "2020-11-01",
             "class": "Drawing & Imaging",
@@ -805,6 +829,7 @@
             ]
         },
         {
+            "id": 25,
             "name": "Mapping Travels",
             "date": "2024-05-01",
             "class": "Communication Design Studio: Javascript",

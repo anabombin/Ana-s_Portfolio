@@ -188,7 +188,7 @@ var symbolSizes = graph.projects.map((project, index) => {
              console.log('Selected project index:', selectedProjectIndex);
 
              // Create a new project row based on the template
-            createProjectRow(selectedProjectIndex, graph.projects);
+             populateProjectContent(selectedProjectIndex, graph.projects);
         } else {
             console.log('Canvas clicked');
             // Perform actions for canvas click (if needed)
@@ -242,22 +242,34 @@ var symbolSizes = graph.projects.map((project, index) => {
     }
 
 
-    // Function to create a new project row based on the selected project
-    function createProjectRow(index, projects) {
+    // // Function to create a new project row based on the selected project
+    // function createProjectRow(index, projects) {
+    //     var project = projects[index];
+    //     console.log(project)
+    //     // Clone the template and show it
+    //     var $newRow = $('#projectTemplate').clone().removeAttr('id').show();
+
+    //     // Populate the cloned row with project data
+    //     $newRow.find('.rot-title').text(project.name);
+    //     $newRow.find('.project-image').attr('src', project.cover_image);
+    //     $newRow.find('.project-title').text(project.name);
+    //     $newRow.find('.project-date').text(project.date);
+    //     $newRow.find('.project-subtitle').text(project.subtitle);
+    //     console.log(project.date)
+
+    //     // Append the new row to the container (assuming you have a container with ID "projects-container")
+    //     $('#project-content').empty().append($newRow);
+    // }
+
+    // Function to populate project content based on the selected project
+    function populateProjectContent(index, projects) {
         var project = projects[index];
-        console.log(project)
-        // Clone the template and show it
-        var $newRow = $('#projectTemplate').clone().removeAttr('id').show();
+        var imagePath = 'images/' + project.id + '/' + project.cover_image;
 
-        // Populate the cloned row with project data
-        $newRow.find('.rot-title').text(project.name);
-        $newRow.find('.project-image').attr('src', project.cover_image);
-        $newRow.find('.project-title').text(project.name);
-        $newRow.find('.project-date').text(project.date);
-        $newRow.find('.project-subtitle').text(project.subtitle);
-        console.log(project.date)
-
-        // Append the new row to the container (assuming you have a container with ID "projects-container")
-        $('#project-content').empty().append($newRow);
+        // Populate the project content with project data
+        $('.rot-title').text(project.name);
+        $('.project-cover').attr('src', imagePath);
+        $('.project-date').text(project.date);
+        $('.project-subtitle').text(project.subtitle);
     }
 });

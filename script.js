@@ -314,12 +314,19 @@ var symbolSizes = graph.projects.map((project, index) => {
             content.images.forEach(function(image) {
                 if (image.trim() !== "") {
                     var $img = $('<img>').attr('src', 'images/' + (index + 1) + '/' + image).css({
-                        width: '30%',
-                        margin: '5px'
+                        width: '100%', // Ensure images take the full width of the grid cell
+                        height: 'auto', // Maintain aspect ratio
+                        'object-fit': 'cover' // Ensure the image covers the container, cropping if necessary
                     });
                     $contentImages.append($img);
                 }
             });
+            // Adjust grid columns based on number of images
+            if (content.images.length < 3) {
+                $contentImages.addClass('grid-2').removeClass('grid-3');
+            } else {
+                $contentImages.addClass('grid-3').removeClass('grid-2');
+            }
             $contentImages.show();
         } else {
             $contentImages.remove(); // Remove the images div if no images
@@ -341,5 +348,5 @@ var symbolSizes = graph.projects.map((project, index) => {
         // Append the new row to the project content container
         $('.project-content').append($newRow);
     });
-    }
+}
 });

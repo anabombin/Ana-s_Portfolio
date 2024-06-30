@@ -233,10 +233,12 @@ var symbolSizes = graph.projects.map((project, index) => {
         if (show) {
             $('#feature').hide(); // Hide feature content
             $('.project-content').show(); // Show project content
+            $('.selected-project-title').show(); // Show project title
             $('.project-content').css('left', '25vw');
         } else {
             $('#feature').show(); // Show feature content
             $('.project-content').hide();
+            $('.selected-project-title').hide(); // Show project title
             $('.project-content').css('left', '100vw'); // Hide project content
         }
     }
@@ -267,6 +269,7 @@ var symbolSizes = graph.projects.map((project, index) => {
         var imagePath = 'images/' + project.id + '/' + project.cover_image;
 
         // Populate the project content with project data
+        $('#selected-project-title').text(project.name);
         $('#cover_title').text(project.class);
         $('.project-cover').attr('src', imagePath);
         $('.project-date').text(project.date);

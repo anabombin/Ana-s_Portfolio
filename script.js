@@ -352,6 +352,18 @@ var symbolSizes = graph.projects.map((project, index) => {
 
         // Append the new row to the project content container
         $('.project-content').append($newRow);
-    });
+    });  
+
 }
+
+//about me hover
+$(".my-name").hover(
+    function() {
+        $(".about-p").addClass("about-p-moved");
+    }, 
+    function() {
+        $(".about-p").removeClass("about-p-moved");
+    }
+);
+
 });

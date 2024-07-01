@@ -334,6 +334,31 @@ ul {
     border: none;
 }
 
+/* about me section */
+.about {
+    position: absolute;
+    top: 45vh;
+    left: 10px;
+    z-index: 6;
+}
+
+.about-p {
+    width: 25vw;
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    transform: translateX(-28vw); /* Initially off-screen to the left */
+    transition: transform 0.5s ease; /* Smooth transition effect */
+}
+
+.about-p.about-p-moved {
+    transform: translateX(0); /* Move into view */
+}
+
+.my-name:hover {
+    border-bottom: 2px solid black;
+}
+
 
 
 /* Phone responsive */
